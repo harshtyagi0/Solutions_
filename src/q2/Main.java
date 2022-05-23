@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Main {
 	public static void main(String[] args) throws IOException {
-		File file = new File("files/easy/test_SplittheNumber.txt");
+		File file = new File("C:\\Users\\harsh\\Desktop\\Document.txt");
 		BufferedReader buffer = new BufferedReader(new FileReader(file));
 		String line;
 		while ((line = buffer.readLine()) != null) {
